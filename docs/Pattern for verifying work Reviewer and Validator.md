@@ -18,6 +18,7 @@ At the moment, the aggressiveness of the Reviewer and Validator is handled by "t
 What needs to be checked:
 - That the agents haven't entered an infinite loop of passing things back and forth to each other. Because if you ask an agent "what can be improved", it will always find something.
 - That the critic doesn't find new and new bugs on every iteration.
+- In prompts we shoud set the border where the Reviewer and Validator should agreed and where they can disagree. Without clear boundaries, they might either agree too easily or get stuck in endless debates.
 
 ## Evals
 
