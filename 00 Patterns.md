@@ -10,3 +10,6 @@
 - md files
 - RAG code search
 - Специализированные системы управления памятью
+
+## Popular broblems (PP)
+[PP - Data skew](docs/PP%20-%20Data%20skew.md)
